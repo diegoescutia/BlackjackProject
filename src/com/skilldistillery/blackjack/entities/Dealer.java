@@ -18,23 +18,10 @@ public class Dealer extends Player {
 	}
 
 	public boolean willDealerHit(BlackjackHand dealer) {
-		if (dealer.getHandValue() <17) {
+		if (dealer.getHandValue() < 18) {
 			return true;
-			// in the app if willDealerHit == true dealer.addCard(dealer.dealCard);
 		}else 
 			return false;
 	}
-	
-
-//	public void bolean hit()
-//	
-//	public void hit
-//	if value < 17
-//	
-//	public void stand 
-//	if value > 18
-//	
-//	public void bust
-//	if value >21
 
 }
